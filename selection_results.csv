@@ -1,0 +1,126 @@
+distribution,n,algorithm,seconds
+random,1000,deterministic (MoM),0.0007388389999505307
+random,1000,randomized quickselect,0.0003105570000343505
+random,1000,sort + index (baseline),9.404500002574423e-05
+random,1000,naive quickselect (first pivot),0.00012282599999480226
+random,5000,deterministic (MoM),0.003966281999964849
+random,5000,randomized quickselect,0.0015260259999649861
+random,5000,sort + index (baseline),0.0006186859999957051
+random,5000,naive quickselect (first pivot),0.0007475230000295596
+random,10000,deterministic (MoM),0.0057942220000199995
+random,10000,randomized quickselect,0.0020878039999843168
+random,10000,sort + index (baseline),0.001172179999969103
+random,10000,naive quickselect (first pivot),0.0014959829999838803
+random,25000,deterministic (MoM),0.01597638100002996
+random,25000,randomized quickselect,0.005769120000024941
+random,25000,sort + index (baseline),0.003370670999970571
+random,25000,naive quickselect (first pivot),0.0032825509999838687
+random,50000,deterministic (MoM),0.03099260599998388
+random,50000,randomized quickselect,0.011661328000002413
+random,50000,sort + index (baseline),0.006964065999966351
+random,50000,naive quickselect (first pivot),0.008183221000024332
+random,100000,deterministic (MoM),0.061394718000030934
+random,100000,randomized quickselect,0.014288111999974262
+random,100000,sort + index (baseline),0.01576095500001884
+random,100000,naive quickselect (first pivot),0.01314290999999912
+random,200000,deterministic (MoM),0.1244593139999779
+random,200000,randomized quickselect,0.04307145899997522
+random,200000,sort + index (baseline),0.03464184599999953
+random,200000,naive quickselect (first pivot),0.02184325300004275
+sorted,1000,deterministic (MoM),0.00036941300004400546
+sorted,1000,randomized quickselect,0.00023081899996668653
+sorted,1000,sort + index (baseline),4.546000013760931e-06
+sorted,1000,naive quickselect (first pivot),0.007622169999990547
+sorted,5000,deterministic (MoM),0.0019458360000044195
+sorted,5000,randomized quickselect,0.0007149260000005597
+sorted,5000,sort + index (baseline),2.582800004802266e-05
+sorted,5000,naive quickselect (first pivot),0.1834962909999831
+sorted,10000,deterministic (MoM),0.003451765000022533
+sorted,10000,randomized quickselect,0.001671393000037824
+sorted,10000,sort + index (baseline),4.62060000359088e-05
+sorted,25000,deterministic (MoM),0.00923716200003355
+sorted,25000,randomized quickselect,0.00678707200000872
+sorted,25000,sort + index (baseline),0.00012158900000258654
+sorted,50000,deterministic (MoM),0.018435652999983176
+sorted,50000,randomized quickselect,0.007736717000000226
+sorted,50000,sort + index (baseline),0.00028701799999453215
+sorted,100000,deterministic (MoM),0.03739193000001251
+sorted,100000,randomized quickselect,0.01729395199998862
+sorted,100000,sort + index (baseline),0.0006869709999932638
+sorted,200000,deterministic (MoM),0.0777466440000012
+sorted,200000,randomized quickselect,0.04285873399999218
+sorted,200000,sort + index (baseline),0.0015903679999951237
+reverse,1000,deterministic (MoM),0.0006560870000384966
+reverse,1000,randomized quickselect,0.00020800900000494948
+reverse,1000,sort + index (baseline),5.052999995314167e-06
+reverse,1000,naive quickselect (first pivot),0.01986662699999897
+reverse,5000,deterministic (MoM),0.003461323999999877
+reverse,5000,randomized quickselect,0.0011198549999562601
+reverse,5000,sort + index (baseline),2.6406000017686893e-05
+reverse,5000,naive quickselect (first pivot),0.49808135800003583
+reverse,10000,deterministic (MoM),0.006798323999987588
+reverse,10000,randomized quickselect,0.0014438219999988178
+reverse,10000,sort + index (baseline),5.209099998637612e-05
+reverse,25000,deterministic (MoM),0.017412297000021226
+reverse,25000,randomized quickselect,0.003979902000025959
+reverse,25000,sort + index (baseline),0.00013090000004467583
+reverse,50000,deterministic (MoM),0.03380381099998431
+reverse,50000,randomized quickselect,0.00735545899999579
+reverse,50000,sort + index (baseline),0.0004914329999792244
+reverse,100000,deterministic (MoM),0.07436685100003615
+reverse,100000,randomized quickselect,0.0208373020000181
+reverse,100000,sort + index (baseline),0.0008907459999818457
+reverse,200000,deterministic (MoM),0.1167346820000148
+reverse,200000,randomized quickselect,0.035364901999969334
+reverse,200000,sort + index (baseline),0.0013599720000456728
+few_unique,1000,deterministic (MoM),0.0001720070000033047
+few_unique,1000,randomized quickselect,7.61779999720602e-05
+few_unique,1000,sort + index (baseline),4.137600001286046e-05
+few_unique,1000,naive quickselect (first pivot),0.0001652179999496184
+few_unique,5000,deterministic (MoM),0.0014797029999726874
+few_unique,5000,randomized quickselect,0.000502473999972608
+few_unique,5000,sort + index (baseline),0.0002442420000079437
+few_unique,5000,naive quickselect (first pivot),0.002488881000033416
+few_unique,10000,deterministic (MoM),0.0017258450000099401
+few_unique,10000,randomized quickselect,0.0017412610000064888
+few_unique,10000,sort + index (baseline),0.0005131350000056045
+few_unique,10000,naive quickselect (first pivot),0.0028042229999982737
+few_unique,25000,deterministic (MoM),0.006645575999982611
+few_unique,25000,randomized quickselect,0.004914447000032851
+few_unique,25000,sort + index (baseline),0.0021408509999787384
+few_unique,25000,naive quickselect (first pivot),0.06846084899996185
+few_unique,50000,deterministic (MoM),0.011122587999977895
+few_unique,50000,randomized quickselect,0.0077725840000084645
+few_unique,50000,sort + index (baseline),0.003382639000051313
+few_unique,50000,naive quickselect (first pivot),0.01696090899997671
+few_unique,100000,deterministic (MoM),0.03780319800000598
+few_unique,100000,randomized quickselect,0.016244730999972035
+few_unique,100000,sort + index (baseline),0.006852277000007234
+few_unique,100000,naive quickselect (first pivot),0.9828544569999735
+few_unique,200000,deterministic (MoM),0.04439360200001374
+few_unique,200000,randomized quickselect,0.027061833000004754
+few_unique,200000,sort + index (baseline),0.01241988900000024
+few_unique,200000,naive quickselect (first pivot),3.5979637719999573
+all_equal,1000,deterministic (MoM),0.00013269499999069012
+all_equal,1000,randomized quickselect,5.527999996957078e-05
+all_equal,1000,sort + index (baseline),3.866999975343788e-06
+all_equal,1000,naive quickselect (first pivot),0.007191523000017241
+all_equal,5000,deterministic (MoM),0.0007110810000199308
+all_equal,5000,randomized quickselect,0.0002475420000109807
+all_equal,5000,sort + index (baseline),1.857999995991122e-05
+all_equal,5000,naive quickselect (first pivot),0.1762974879999888
+all_equal,10000,deterministic (MoM),0.0013834729999757656
+all_equal,10000,randomized quickselect,0.0004702319999978499
+all_equal,10000,sort + index (baseline),4.361999998536703e-05
+all_equal,25000,deterministic (MoM),0.0034828409999931864
+all_equal,25000,randomized quickselect,0.0011707080000178394
+all_equal,25000,sort + index (baseline),8.885199997621385e-05
+all_equal,50000,deterministic (MoM),0.007092183999986901
+all_equal,50000,randomized quickselect,0.002361487000030138
+all_equal,50000,sort + index (baseline),0.0001818480000110867
+all_equal,100000,deterministic (MoM),0.014039642000000185
+all_equal,100000,randomized quickselect,0.004762091000031887
+all_equal,100000,sort + index (baseline),0.00037012199999253426
+all_equal,200000,deterministic (MoM),0.028277611000021352
+all_equal,200000,randomized quickselect,0.009540143000037915
+all_equal,200000,sort + index (baseline),0.0008662650000132999

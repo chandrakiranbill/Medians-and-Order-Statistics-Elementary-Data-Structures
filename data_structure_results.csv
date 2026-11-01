@@ -1,0 +1,61 @@
+experiment,structure,n,seconds
+stack,ArrayStack,1000,0.00023733499995159946
+stack,LinkedStack,1000,0.00027431700004854065
+queue,ArrayQueue (circular),1000,0.00034564799994996065
+queue,LinkedQueue,1000,0.000253414999974666
+stack,ArrayStack,10000,0.0027832939999825612
+stack,LinkedStack,10000,0.002896921999990809
+queue,ArrayQueue (circular),10000,0.004584938999983024
+queue,LinkedQueue,10000,0.0029421540000384994
+stack,ArrayStack,50000,0.015512723999961509
+stack,LinkedStack,50000,0.013970443999994586
+queue,ArrayQueue (circular),50000,0.018019901999991816
+queue,LinkedQueue,50000,0.01382853900003056
+stack,ArrayStack,100000,0.02262450500001023
+stack,LinkedStack,100000,0.03590574499997956
+queue,ArrayQueue (circular),100000,0.04572521099998994
+queue,LinkedQueue,100000,0.03574025400001801
+stack,ArrayStack,200000,0.05621720699997468
+stack,LinkedStack,200000,0.07389857300000813
+queue,ArrayQueue (circular),200000,0.07557560399999375
+queue,LinkedQueue,200000,0.06212688799996613
+stack,ArrayStack,400000,0.09305382399998052
+stack,LinkedStack,400000,0.14337641399998802
+queue,ArrayQueue (circular),400000,0.18428142499999467
+queue,LinkedQueue,400000,0.16028187500000968
+queue_naive,NaiveArrayQueue (shifting),500,0.003070380000053774
+queue_naive,ArrayQueue (circular),500,0.0001616330000047128
+front_insert,DynamicArray.insert(0),500,0.0030892040000480847
+front_insert,SinglyLinkedList.prepend,500,6.656200002908008e-05
+queue_naive,NaiveArrayQueue (shifting),1000,0.013608934000046702
+queue_naive,ArrayQueue (circular),1000,0.0003499190000297858
+front_insert,DynamicArray.insert(0),1000,0.013683895999974993
+front_insert,SinglyLinkedList.prepend,1000,0.00013199500000382614
+queue_naive,NaiveArrayQueue (shifting),2000,0.06173042300002862
+queue_naive,ArrayQueue (circular),2000,0.0007688670000334241
+front_insert,DynamicArray.insert(0),2000,0.05788003700001809
+front_insert,SinglyLinkedList.prepend,2000,0.0003263539999807108
+queue_naive,NaiveArrayQueue (shifting),4000,0.24632577899996022
+queue_naive,ArrayQueue (circular),4000,0.0015665199999830293
+front_insert,DynamicArray.insert(0),4000,0.24306880599999658
+front_insert,SinglyLinkedList.prepend,4000,0.0005996589999881508
+queue_naive,NaiveArrayQueue (shifting),8000,1.0608789259999867
+queue_naive,ArrayQueue (circular),8000,0.003221319000033418
+front_insert,DynamicArray.insert(0),8000,1.0339087410000047
+front_insert,SinglyLinkedList.prepend,8000,0.0013998620000279516
+queue_naive,NaiveArrayQueue (shifting),16000,4.014912508000009
+queue_naive,ArrayQueue (circular),16000,0.005367719999981091
+front_insert,DynamicArray.insert(0),16000,3.7851737270000285
+front_insert,SinglyLinkedList.prepend,16000,0.0028550140000334068
+random_access,DynamicArray[i],500,0.00018111900004669224
+random_access,SinglyLinkedList.get(i),500,0.005875640999988718
+random_access,DynamicArray[i],1000,0.00017771499994978512
+random_access,SinglyLinkedList.get(i),1000,0.013173063000010643
+random_access,DynamicArray[i],2000,0.00019002699997372474
+random_access,SinglyLinkedList.get(i),2000,0.0276299710000103
+random_access,DynamicArray[i],4000,0.0001960220000114532
+random_access,SinglyLinkedList.get(i),4000,0.05372427999998308
+random_access,DynamicArray[i],8000,0.00014663199999631615
+random_access,SinglyLinkedList.get(i),8000,0.09021746199999825
+random_access,DynamicArray[i],16000,0.0001509420000047612
+random_access,SinglyLinkedList.get(i),16000,0.17717672599997059

@@ -1,0 +1,4 @@
+n,DynamicArray_bytes_per_elem,SinglyLinkedList_bytes_per_elem
+1000,8.296,48.048
+10000,13.1176,48.0048
+100000,10.4868,48.00048
